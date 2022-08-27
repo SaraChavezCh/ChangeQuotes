@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.App {
+  border: 1rem solid black;
+  width: 45rem;
+  height: 10rem;
+  padding: 1rem;
+  background-color: white;
+  margin: 18rem auto;
+  font-size: 18px;
+}
+.fa-solid {
+  font-size: 24px;
+}
+#quoteIcon {
+  font-size: 82px;
+  position: absolute;
+  left: 20rem;
+  top: 22rem;
+}
+.quote {
+  width: 38rem;
+  margin-left: 5rem;
+  font-size: 18px;
+}
+.author {
+  text-align: end;
+  margin-right: 4rem;
+}
+button {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  box-shadow: 1px 1px 5px 2px;
+  position: fixed;
+  right: 45rem;
+}
